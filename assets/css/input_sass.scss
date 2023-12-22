@@ -34,5 +34,20 @@ header {
 /******  ORDER ******/
 
 /****** OEUVRE ******/
+#oeuvre {
+    li {
+        font-family: 'Anironc', Arial, Helvetica, sans-serif;
+        flex-grow: 1;
+        flex-basis: 300px;
+        max-width: 400px;
+        text-align: center;
+        padding:  30px 20px;
+        box-shadow: 0 3px 5px 0 #9cfcc0;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
 /****** FOOTER ******/

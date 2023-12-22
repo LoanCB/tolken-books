@@ -29,8 +29,6 @@ header {
     height: 100vh;
 }
 
-/******  BOOKS ******/
-
 /****** OEUVRE ******/
 #oeuvre {
     li {
@@ -50,12 +48,14 @@ header {
 
 /******  ORDER ******/
 #order {
+    background-color: #f1f4f9;
+
     li {
         flex-grow: 1;
         flex-basis: 500px;
         max-width: 700px;
         padding: 20px;
-        box-shadow: 0 3px 5px 0 #9cfcc0;
+        box-shadow: 0 3px 5px 0 #10c8e4;
         border-radius: 10px;
         display: flex;
         align-items: center;
@@ -83,6 +83,25 @@ header {
                 align-self: flex-start;
             }
         }
+    }
+}
+
+/*****  HISTORY *****/
+#history {
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        object-fit: cover;
+        padding: 3px;
+    }
+
+    #tolkien_img {
+        border: solid 2px purple;
+    }
+
+    #christopher_img {
+        border: solid 2px gray;
     }
 }
 

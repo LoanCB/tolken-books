@@ -46,7 +46,6 @@ header {
 }
 
 /******  BOOKS ******/
-/******  ORDER ******/
 /****** OEUVRE ******/
 #oeuvre li {
   font-family: "Anironc", Arial, Helvetica, sans-serif;
@@ -60,6 +59,38 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/******  ORDER ******/
+#order li {
+  flex-grow: 1;
+  flex-basis: 500px;
+  max-width: 700px;
+  padding: 20px;
+  box-shadow: 0 3px 5px 0 #9cfcc0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#order li img {
+  border-radius: 10px;
+  max-width: 150px;
+  height: auto;
+}
+#order li h3 {
+  font-family: "Anironc", Arial, Helvetica, sans-serif;
+}
+#order li div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#order li div span {
+  padding: 5px 15px;
+  border-radius: 50px;
+  background-color: #10c8e4;
+  align-self: flex-start;
 }
 
 /****** FOOTER ******/

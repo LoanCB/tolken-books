@@ -5,9 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sass assets/css/index.scss assets/css/index.css",
-    "watch": "sass assets/css/index.scss assets/css/index.css --watch"
+    "sass:build": "sass assets/css/input_sass.scss assets/css/build/sass_index.css",
+    "sass:watch": "sass assets/css/input_sass.scss assets/css/build/sass_index.css --watch",
+    "tailwind:build": "npx tailwindcss -i ./assets/css/input_tailwind.css -o ./assets/css/build/tailwind_index.css",
+    "tailwind:watch": "npx tailwindcss -i ./assets/css/input_tailwind.css -o ./assets/css/build/tailwind_index.css --watch"
   },
   "author": "Loan Courchinoux-Billonnet",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.4.0"
+  }
 }

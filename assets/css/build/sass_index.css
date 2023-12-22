@@ -1,0 +1,46 @@
+/********************/
+/*      IMPORTS     */
+/********************/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Anironc";
+  src: url("../../fonts/Anironc.ttf");
+}
+/********************/
+/*     VARIABLES    */
+/********************/
+/********************/
+/*  GLOBAL CLASSES  */
+/********************/
+.tolkien-font {
+  font-family: "Anironc", Arial, Helvetica, sans-serif;
+}
+
+/********************/
+/*     SECTIONS     */
+/********************/
+/****** HEADER ******/
+/******  BOOKS ******/
+/******  ORDER ******/
+/****** OEUVRE ******/
+/****** FOOTER ******/
+
+/*# sourceMappingURL=sass_index.css.map */

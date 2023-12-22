@@ -672,12 +672,20 @@ video {
   flex-basis: 500px;
 }
 
+.basis-\[300px\] {
+  flex-basis: 300px;
+}
+
 .flex-col {
   flex-direction: column;
 }
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .items-center {

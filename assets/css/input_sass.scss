@@ -16,6 +16,18 @@
     font-family: 'Anironc', Arial, Helvetica, sans-serif;
 }
 
+.px-g {
+    padding-left: 13rem;
+    padding-right: 13rem;
+}
+
+@media screen and (max-width: 900px) {
+    .px-g {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
 
 /********************/
 /*     SECTIONS     */
@@ -58,10 +70,14 @@ header {
         box-shadow: 0 3px 5px 0 #10c8e4;
         border-radius: 10px;
         display: flex;
+        justify-content: center;
         align-items: center;
+        flex-wrap: wrap-reverse;
         gap: 20px;
 
         img {
+            flex-grow: 1;
+            flex-basis: 200px;
             border-radius: 10px;
             max-width: 150px;
             height: auto;
@@ -72,9 +88,16 @@ header {
         }
 
         div {
+            flex-grow: 1;
+            flex-basis: 300px;
             display: flex;
             flex-direction: column;
             gap: 10px;
+            text-align: left;
+
+            @media screen and (max-width: 544px) {
+                text-align: center;
+            }
 
             span {
                 padding: 5px 15px;

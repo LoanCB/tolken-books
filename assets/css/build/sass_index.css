@@ -38,6 +38,13 @@ ul li {
 /*     SECTIONS     */
 /********************/
 /****** HEADER ******/
+header {
+  background: url("../../img/background.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 /******  BOOKS ******/
 /******  ORDER ******/
 /****** OEUVRE ******/

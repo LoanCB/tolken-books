@@ -4,15 +4,33 @@
     <!-- Meta tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Loan Courchinoux-Billonnet">
+    <meta name="keywords" content="école, cours, JR Tolkien">
+    <meta name="description" content="Exercice de création d'une page static en utilisant tailwind et sass">
 
     <!-- Title and favicon -->
-    <title>Document</title>
+    <title>Tolkien Books</title>
+    <link href="assets/img/logo.jpg" rel="icon" type="image/x-icon" />
 
     <!-- Source files -->
     <link href="assets/css/build/sass_index.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/build/tailwind_index.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    
+    <header class="text-white">
+        <nav class="flex justify-between mx-52 pt-5">
+            <img src="assets/img/logo.jpg" alt="Logo LOTR" class="w-10" />
+            <ul class="flex gap-5">
+                <li><a href="#oeuvre">Oeuvres</a></li>
+                <li><a href="#order">Ordre de lectures</a></li>
+                <li><a href="#history">Histoire</a></li>
+                <li><img src="assets/img/moon.svg" alt="Lun e" /></li>
+            </ul>
+        </nav>
+        <div class="flex justify-center items-center pt-[35vh]">
+            <h1 class="text-center text-3xl">Liste de lecture<br><span class="tolkien-font text-5xl">Tolkien</span></h1>
+        </div>
+    </header>
 </body>
 </html>
